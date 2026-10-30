@@ -3,10 +3,10 @@
 ## Overview
 - **Project 1 (3D CNNs)**: `R(2+1)D` Baseline vs. `DMD-A-Net` (Frame-Differential Motion Gate + Temporal Concealment Cross-Attention)
 - **Project 2 (Video Transformers)**: `TimeSformer` Baseline vs. `TCA-ViT` (Motion-Salience Patch Gate + Occlusion Gradient Head)
-- **Project 3 (Skeleton Graph CNNs)**: `ST-GCN` vs. `CTR-GCN` vs. `VDA-GCN` (Velocity-Gated Temporal Conv + Directed Concealment Adjacency)
+- **Project 3 (Skeleton Graph CNNs — YOLOv26n-pose)**: `ST-GCN` vs. `CTR-GCN` vs. `VDA-GCN` (Velocity-Gated Temporal Conv + Directed Concealment Adjacency)
 
 ## Cross-Dataset Evaluation Plan (`NaveenKumarGottipalli/Shoplifting_DataCollection`)
-- **Training & Validation Corpus**: `S3` + `Shop DataSet` + `UCF-Crime` (S1 removed)
+- **Training & Validation Corpus**: `S3` + `Shop DataSet` + `UCF-Crime`
 - **Unseen Real-World Test Set**: `DCSASS Dataset` (`DCSASS Dataset/Labels/Shoplifting.csv`)
 
 ## Repository Structure
