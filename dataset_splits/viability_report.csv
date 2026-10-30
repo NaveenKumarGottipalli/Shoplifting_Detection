@@ -1,0 +1,5 @@
+corpus_role,source,cached,fail
+train_val_corpus,S3,610,2
+train_val_corpus,ShopDataSet,855,0
+train_val_corpus,UCF,349,0
+unseen_test,DCSASS,896,0
